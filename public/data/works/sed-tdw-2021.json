@@ -1,0 +1,70 @@
+{
+  "id": "sed-tdw-2021",
+  "cn_name": "团队 TDW 周边",
+  "en_name": "Team Products for TDW 2021",
+  "year": {
+    "start": 2021,
+    "end": null
+  },
+  "platform": ["Printing"],
+  "category": [
+    "Material"
+  ],
+  "credits": [
+    {
+      "title": "Graphic Design",
+      "people": [
+        { "name": "kakit" }
+      ]
+    }
+  ],
+  "description": [
+    {
+      "chapter_title": "TDW 2021 团队周边",
+      "content": [
+        "2021 年的「腾讯设计周」设计市集所售卖的部分团队商品。"
+      ]
+    }
+  ],
+  "images": [
+    {
+      "type": "image",
+      "url": [
+        "sed-tdw-2021-01"
+      ]
+    },
+    {
+      "type": "image",
+      "url": [
+        "sed-tdw-2021-02",
+        "sed-tdw-2021-03"
+      ]
+    },
+    {
+      "type": "image",
+      "url": [
+        "sed-tdw-2021-04",
+        "sed-tdw-2021-05"
+      ]
+    },
+    {
+      "type": "image",
+      "url": [
+        "sed-tdw-2021-06",
+        "sed-tdw-2021-07"
+      ]
+    },
+    {
+      "type": "image",
+      "url": [
+        "sed-tdw-2021-08"
+      ]
+    },
+    {
+      "type": "image",
+      "url": [
+        "sed-tdw-2021-09"
+      ]
+    }
+  ]
+}

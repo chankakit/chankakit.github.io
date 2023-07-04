@@ -1,0 +1,104 @@
+{
+  "id": "we-sync-countdown",
+  "cn_name": "提醒日历 (鸿蒙快应用)",
+  "en_name": "WeSync Countdown",
+  "year": {
+    "start": 2022,
+    "end": null
+  },
+  "platform": ["HarmonyOS"],
+  "category": [
+    "UI"
+  ],
+  "credits": [
+    {
+      "title": "Director",
+      "people": [
+        { "name": "龙哥" }
+      ]
+    },
+    {
+      "title": "UX",
+      "people": [
+        { "name": "wing" },
+        { "name": "kakit" }
+      ]
+    }
+  ],
+  "description": [
+    {
+      "chapter_title": "背景",
+      "content": [
+        "「QQ同步助手」原本有一个节日提醒的小功能，后来跟华为鸿蒙应用市场合作，想要为「QQ同步助手」推广，便单独为「鸿蒙」系统制作一个独立的「鸿蒙快应用」。"
+      ]
+    },
+    {
+      "chapter_title": "应用特点",
+      "content": [
+        "因为功能原本只是「QQ同步助手」中一个小功能点，所以我们将其独立成小程序也不必复杂化相关功能。我们的着力点在于可以跳出「QQ同步助手」原有的框框，去做一款跟极其轻量，且与「鸿蒙」系统应用相吻合风格的「伪系统级小程序」。"
+      ]
+    },
+    {
+      "chapter_title": "设计",
+      "content": [
+        "第一版的设计我们从速度出发，直接从「QQ同步助手」原功能移植过来。第二版我们从「轻」、「明快」出发，我们希望用户能勾起回忆的愉快，同时回忆总是带着一层朦胧的纱帘，所以选取了一系列饱和度偏淡的柔和色彩作为我们的设计语言。"
+      ]
+    }
+  ],
+  "images": [
+    {
+      "type": "video",
+      "url": [
+        "we-sync-countdown-01"
+      ]
+    },
+    {
+      "type": "image",
+      "url": [
+        "we-sync-countdown-02"
+      ]
+    },
+    {
+      "type": "image",
+      "url": [
+        "we-sync-countdown-03"
+      ]
+    },
+    {
+      "type": "image",
+      "url": [
+        "we-sync-countdown-04"
+      ]
+    },
+    {
+      "type": "image",
+      "url": [
+        "we-sync-countdown-05"
+      ]
+    },
+    {
+      "type": "image",
+      "url": [
+        "we-sync-countdown-06"
+      ]
+    },
+    {
+      "type": "video",
+      "url": [
+        "we-sync-countdown-07"
+      ]
+    },
+    {
+      "type": "image",
+      "url": [
+        "we-sync-countdown-08"
+      ]
+    },
+    {
+      "type": "image",
+      "url": [
+        "we-sync-countdown-09"
+      ]
+    }
+  ]
+}

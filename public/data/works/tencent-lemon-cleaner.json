@@ -1,0 +1,187 @@
+{
+  "id": "tencent-lemon-cleaner",
+  "cn_name": "腾讯柠檬清理",
+  "en_name": "Tencent Lemon Cleaner",
+  "year": {
+    "start": 2021,
+    "end": 2022
+  },
+  "platform": ["macOS"],
+  "category": [
+    "UI",
+    "Branding",
+    "Front-end dev"
+  ],
+  "credits": [
+    {
+      "title": "Director",
+      "people": [
+        { "name": "龙哥" }
+      ]
+    },
+    {
+      "title": "UX",
+      "people": [
+        { "name": "wing" },
+        { "name": "kakit" }
+      ]
+    },
+    {
+      "title": "Branding",
+      "people": [
+        { "name": "kakit" }
+      ]
+    },
+    {
+      "title": "IP Design",
+      "people": [
+        { "name": "小鱼" }
+      ]
+    }
+  ],
+  "description": [
+    {
+      "chapter_title": "背景",
+      "content": [
+        "「柠檬清理」是一款 macOS 平台的清理软件，它以清爽、简单、不打扰的原则，自 2018 年年末推出以来，赢得不少用户好口碑。2021 年初，我所在的团队开始接手柠檬清理的设计工作。摆在我们面前的事情是，在基本清理功能都已经有的情况下，并坚持以上原则，如何把它推向更多的用户群体。"
+      ]
+    },
+    {
+      "chapter_title": "功能分析",
+      "content": [
+        "经过功能梳理，以及我们团队日常使用体验，在安全可清理的文件以外，占据用户储存空间的是用户的一些专业软件的缓存和一些办公通讯软件所产生的文件。",
+        "一直以来「柠檬清理」为了确保文件是能安全可删除的，都是专门针对每一款软件去进行适配，总有我们没有适配的软件，软件的缓存文件可能大量小文件，「柠檬清理」的大文件清理功能是无法发现这些文件。有见及此，我们为「柠檬清理」加入了「磁盘空间分析」功能，以帮助用户查找出占据大量空间的目录，自主控制是否删除和添加至自动清理功能中。",
+        "而针对日常使用办公通讯软件所产生的文件，我们推出了「文件搬家」功能，让「企业微信」产生的大量文件，自动分门别类移动到外部储存装置中。"
+      ]
+    },
+    {
+      "chapter_title": "品牌传播",
+      "content": [
+        "我们对产品品牌物料进行一轮走查后发现，原来的品牌设计资料并不完善，例如 logo 细节不规范，缺少品牌设计文档，官网没有为移动端适配等问题。为此，我们重新调整了品牌相关设计，完善整体品牌配色，以及品牌的使用规范整理成文档，快速上线了产品官网的移动端页面。除此之外，我们也增加了一点点的运营工作：三周年活动回馈用户产品IP周边，我和产品同事在产品反馈论坛直接跟用户交流答疑，公众号的运营，投放微信红包封面等。"
+      ]
+    }
+  ],
+  "images": [
+    {
+      "type": "image",
+      "url": [
+        "tencent-lemon-cleaner-01"
+      ]
+    },
+    {
+      "type": "video",
+      "url": [
+        "tencent-lemon-cleaner-02"
+      ]
+    },
+    {
+      "type": "video",
+      "url": [
+        "tencent-lemon-cleaner-03"
+      ]
+    },
+    {
+      "type": "image",
+      "url": [
+        "tencent-lemon-cleaner-04",
+        "tencent-lemon-cleaner-05"
+      ]
+    },
+    {
+      "type": "image",
+      "url": [
+        "tencent-lemon-cleaner-06"
+      ]
+    },
+    {
+      "type": "image",
+      "url": [
+        "tencent-lemon-cleaner-07"
+      ]
+    },
+    {
+      "type": "image",
+      "url": [
+        "tencent-lemon-cleaner-08"
+      ]
+    },
+    {
+      "type": "image",
+      "url": [
+        "tencent-lemon-cleaner-09"
+      ]
+    },
+    {
+      "type": "image",
+      "url": [
+        "tencent-lemon-cleaner-10"
+      ]
+    },
+    {
+      "type": "video",
+      "url": [
+        "tencent-lemon-cleaner-11"
+      ]
+    },
+    {
+      "type": "image",
+      "url": [
+        "tencent-lemon-cleaner-12"
+      ]
+    },
+    {
+      "type": "image",
+      "url": [
+        "tencent-lemon-cleaner-13"
+      ]
+    },
+    {
+      "type": "image",
+      "url": [
+        "tencent-lemon-cleaner-14"
+      ]
+    },
+    {
+      "type": "image",
+      "url": [
+        "tencent-lemon-cleaner-15"
+      ]
+    },
+    {
+      "type": "image",
+      "url": [
+        "tencent-lemon-cleaner-16"
+      ]
+    },
+    {
+      "type": "video",
+      "url": [
+        "tencent-lemon-cleaner-17"
+      ]
+    },
+    {
+      "type": "image",
+      "url": [
+        "tencent-lemon-cleaner-18"
+      ]
+    },
+    {
+      "type": "image",
+      "url": [
+        "tencent-lemon-cleaner-19"
+      ]
+    },
+    {
+      "type": "image",
+      "url": [
+        "tencent-lemon-cleaner-20"
+      ]
+    },
+    {
+      "type": "image",
+      "url": [
+        "tencent-lemon-cleaner-21"
+      ]
+    }
+  ]
+}

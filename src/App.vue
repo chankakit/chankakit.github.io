@@ -1,30 +1,38 @@
 <script setup lang="ts">
-import HelloWorld from './components/HelloWorld.vue'
+import WipeOverlay from '@/components/WipeOverlay.vue'
+import GlobalHeader from '@/components/GlobalHeader.vue'
+import { worksList, miscList } from '@/common/store'
+
+// 载入 Works 数据
+fetch('/data/works.json')
+  .then((response) => response.json())
+  .then((json) => worksList.value = json)
+
+// 载入 Misc 数据
+fetch('/data/misc.json')
+  .then((response) => response.json())
+  .then((json) => miscList.value = json)
+
 </script>
 
 <template>
-  <div>
-    <a href="https://vitejs.dev" target="_blank">
-      <img src="/vite.svg" class="logo" alt="Vite logo" />
-    </a>
-    <a href="https://vuejs.org/" target="_blank">
-      <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
-    </a>
-  </div>
-  <HelloWorld msg="Vite + Vue" />
+  <global-header />
+  <wipe-overlay />
+  <router-view v-slot="{Component}">
+    <transition name="page-fade" mode="out-in">
+      <component :is="Component" :key="$route.fullPath"></component>
+    </transition>
+  </router-view>
 </template>
 
-<style scoped>
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
+<style lang="scss">
+.page-fade-enter-active,
+.page-fade-leave-active {
+  transition: opacity .5s ease-in-out;
 }
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+.page-fade-enter-from,
+.page-fade-leave-to {
+  opacity: 0;
 }
-.logo.vue:hover {
-  filter: drop-shadow(0 0 2em #42b883aa);
-}
+
 </style>

@@ -1,0 +1,131 @@
+{
+  "id": "t-sec-uem",
+  "cn_name": "T-Sec UEM 统一端点管理",
+  "en_name": "T-Sec UEM",
+  "year": {
+    "start": 2019,
+    "end": 2020
+  },
+  "platform": ["Web", "Mobile"],
+  "category": ["UI", "Promo"],
+  "credits": [
+    {
+      "title": "Director",
+      "people": [
+        { "name": "Pako" }
+      ]
+    },
+    {
+      "title": "UX",
+      "people": [
+        { "name": "wing" },
+        { "name": "kakit" }
+      ]
+    },
+    {
+      "title": "Promo Material",
+      "people": [
+        { "name": "ningtao" },
+        { "name": "kakit" }
+      ]
+    },
+    {
+      "title": "Branding",
+      "people": [
+        { "name": "Fifo" }
+      ]
+    }
+  ],
+  "description": [
+    {
+      "chapter_title": "项目说明",
+      "content": [
+        "UEM (Unified Endpoint Management) 统一端点管理，是为企业一站式控制台监控、管理和保护组织中所有最终用户设备的系统。UEM 通过简化管理，帮助安全和 IT 团队管理企业员工进入内网的终端设备，加强终端的安全性，防范企业数据泄露。"
+      ]
+    },
+    {
+      "chapter_title": "设计",
+      "content": [
+        "T-Sec UEM 主要分为两部分，管理后台与客户端。",
+        "管理后台主要使用者是企业或政府信息安全相关部门的人员，管理人员和对应设备、监察企业内所有登记设备的安全情况、管理和下发工作应用到对应的设备。",
+        "后台管理页面重点在于交互操作的合理性，整体页面类别分为三类「展示型」、「操作型」、「阅读型」。「展示型」重心落在通过合适的图表展示，向系统管理员表现出直观的数据呈现，避免信息混淆，并考虑设计中可开发落地的成本。「操作型」页面存在高密度的信息，且还需要对信息条目进行一定的操作，这些页面我们重点考虑高频次操作，突出核心操作，以及在较小浏览器窗口下的适应性，保证页面有一定的指引性，尽可能使管理员的工作流程流畅。",
+        "客户端则是安装在企业人员设备中，为设备分隔开个人数据空间与工作空间，实时安全防护设备的安全、提醒风险情况等。"
+      ]
+    }
+  ],
+  "images": [
+    {
+      "type": "image",
+      "url": [
+        "t-sec-uem-01"
+      ]
+    },
+    {
+      "type": "image",
+      "url": [
+        "t-sec-uem-02"
+      ]
+    },
+    {
+      "type": "image",
+      "url": [
+        "t-sec-uem-03",
+        "t-sec-uem-04"
+      ]
+    },
+    {
+      "type": "image",
+      "url": [
+        "t-sec-uem-05"
+      ]
+    },
+    {
+      "type": "image",
+      "url": [
+        "t-sec-uem-06"
+      ]
+    },
+    {
+      "type": "image",
+      "url": [
+        "t-sec-uem-07"
+      ]
+    },
+    {
+      "type": "image",
+      "url": [
+        "t-sec-uem-08"
+      ]
+    },
+    {
+      "type": "image",
+      "url": [
+        "t-sec-uem-09"
+      ]
+    },
+    {
+      "type": "image",
+      "url": [
+        "t-sec-uem-10"
+      ]
+    },
+    {
+      "type": "video",
+      "url": [
+        "t-sec-uem-11"
+      ]
+    },
+    {
+      "type": "image",
+      "url": [
+        "t-sec-uem-12"
+      ]
+    },
+    {
+      "type": "video",
+      "url": [
+        "t-sec-uem-13"
+      ]
+    }
+  ]
+}

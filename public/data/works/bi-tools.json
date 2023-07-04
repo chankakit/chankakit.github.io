@@ -1,0 +1,67 @@
+{
+  "id": "bi-tools",
+  "cn_name": "内部 BI 工具",
+  "en_name": "BI Tools In-House",
+  "year": {
+    "start": 2018,
+    "end": 2020
+  },
+  "platform": ["Web"],
+  "category": [
+    "UI"
+  ],
+  "credits": [
+    {
+      "title": "UX",
+      "people": [
+        { "name": "kakit" }
+      ]
+    }
+  ],
+  "description": [
+    {
+      "chapter_title": "部门内的一些数据可视化项目",
+      "content": [
+        "主线项目外的部门内一些 BI 工具。"
+      ]
+    }
+  ],
+  "images": [
+    {
+      "type": "video",
+      "url": [
+        "bi-tools-01"
+      ]
+    },
+    {
+      "type": "image",
+      "url": [
+        "bi-tools-02"
+      ]
+    },
+    {
+      "type": "image",
+      "url": [
+        "bi-tools-03"
+      ]
+    },
+    {
+      "type": "image",
+      "url": [
+        "bi-tools-04"
+      ]
+    },
+    {
+      "type": "image",
+      "url": [
+        "bi-tools-05"
+      ]
+    },
+    {
+      "type": "image",
+      "url": [
+        "bi-tools-06"
+      ]
+    }
+  ]
+}

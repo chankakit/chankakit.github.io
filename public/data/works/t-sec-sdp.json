@@ -1,0 +1,166 @@
+{
+  "id": "t-sec-sdp",
+  "cn_name": "T-Sec SDP",
+  "en_name": "T-Sec SDP",
+  "year": {
+    "start": 2020,
+    "end": 2022
+  },
+  "platform": ["Web", "Mobile"],
+  "category": ["UI", "Promo"],
+  "credits": [
+    {
+      "title": "Director",
+      "people": [
+        { "name": "花姐" }
+      ]
+    },
+    {
+      "title": "UX",
+      "people": [
+        { "name": "Jade" },
+        { "name": "kakit" }
+      ]
+    },
+    {
+      "title": "Branding",
+      "people": [
+        { "name": "彪哥" }
+      ]
+    },
+    {
+      "title": "Promo Video",
+      "people": [
+        { "name": "彪哥" },
+        { "name": "kakit" }
+      ]
+    }
+  ],
+  "description": [
+    {
+      "chapter_title": "项目说明",
+      "content": [
+        "SDP，即软件定义边界，T-Sec SDP 是腾讯向企业用户提供的新一代的安全接入云服务，包括 SDP 管理平台及SDP客户端（包括Windows、Mac、iOS、Android等多个应用版本）等。为企业员工提供方便的企业内网接入服务，比传统 VPN 方式更安全、可控、更方便的操作。对企业网络运维管理员，提供简单直观的管理后台。"
+      ]
+    },
+    {
+      "chapter_title": "设计",
+      "content": [
+        "T-Sec SDP 管理后台使用 Tea 前端组件库（腾讯云所使用的组件库），组件视觉设计语言上跟随腾讯云管理后台的风格。设计的着力点放在了降低运维管理员的理解难度和操作门槛上。",
+        "用户首次使用的时候，我们加入了浮层导向指引、任务引导，给出配置引导列表，管理员逐步操作即可。",
+        "而在 SDP 核心的场景定制功能，我们提供直观的连接拓扑图，提供直观的查看和操作，每个场景下的网关、连接器和各个应用间的连接关系一目了然。",
+        "（客户端并不是我主要负责，图片为比稿时的飞机稿）"
+      ]
+    },
+    {
+      "chapter_title": "售前宣发",
+      "content": [
+        "T-Sec SDP 是一款面向企业售卖的服务软件，从表层来看它跟传统 VPN 非常类似，但内里是完全不同的技术结构，团队的销售人员需要向意向企业中不同的角色，财务审批部门，网络运维管理等相关岗位进行宣讲推广，向他们解释 SDP 和其中的优势之处。我们设计团队因此需要配合销售人员去输出不同形式的售前宣发物料，包括一些 PPT，视频，一纸禅等。"
+      ]
+    }
+  ],
+  "images": [
+    {
+      "type": "image",
+      "url": [
+        "t-sec-sdp-01"
+      ]
+    },
+    {
+      "type": "image",
+      "url": [
+        "t-sec-sdp-02"
+      ]
+    },
+    {
+      "type": "image",
+      "url": [
+        "t-sec-sdp-03"
+      ]
+    },
+    {
+      "type": "image",
+      "url": [
+        "t-sec-sdp-04"
+      ]
+    },
+    {
+      "type": "image",
+      "url": [
+        "t-sec-sdp-05"
+      ]
+    },
+    {
+      "type": "image",
+      "url": [
+        "t-sec-sdp-06"
+      ]
+    },
+    {
+      "type": "image",
+      "url": [
+        "t-sec-sdp-07"
+      ]
+    },
+    {
+      "type": "video",
+      "url": [
+        "t-sec-sdp-08"
+      ]
+    },
+    {
+      "type": "image",
+      "url": [
+        "t-sec-sdp-09"
+      ]
+    },
+    {
+      "type": "image",
+      "url": [
+        "t-sec-sdp-10"
+      ]
+    },
+    {
+      "type": "image",
+      "url": [
+        "t-sec-sdp-11"
+      ]
+    },
+    {
+      "type": "image",
+      "url": [
+        "t-sec-sdp-12"
+      ]
+    },
+    {
+      "type": "image",
+      "url": [
+        "t-sec-sdp-13"
+      ]
+    },
+    {
+      "type": "image",
+      "url": [
+        "t-sec-sdp-14"
+      ]
+    },
+    {
+      "type": "image",
+      "url": [
+        "t-sec-sdp-15"
+      ]
+    },
+    {
+      "type": "image",
+      "url": [
+        "t-sec-sdp-16"
+      ]
+    },
+    {
+      "type": "video",
+      "url": [
+        "t-sec-sdp-17"
+      ]
+    }
+  ]
+}
