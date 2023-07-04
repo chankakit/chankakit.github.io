@@ -23,5 +23,4 @@ dist-ssr
 *.sln
 *.sw?
 
-public/images/**/*
-public/images-webp/**/*
+public/images/convert_webp.zsh
