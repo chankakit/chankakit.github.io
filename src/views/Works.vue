@@ -103,7 +103,7 @@ onMounted(() => {
 .work-item {
   align-items: center;
   gap: 36px;
-  transition: all .7s ease-out;
+  transition: transform .7s ease-out, opacity .7s ease-out;
   transform: translateY(25px);
   opacity: 0;
   @media (max-width: 1000px) {

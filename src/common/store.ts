@@ -29,8 +29,15 @@ watch(worksList, async () => {
   }
 })
 
+
+interface miscItem {
+  type: string,
+  cover: string,
+  title: string,
+  subtitle: string
+}
 /** 杂 列表内容 */
-export const miscList = ref<[]>()
+export const miscList = ref<miscItem[]>()
 
 /** 用于禁止直接 url 访问时出现过渡 overlay，
   * 当主页（Home.vue）加载完成时，才会设置成 true，
