@@ -374,14 +374,14 @@ $transitionStyle: all .3s ease;
 .content {
   display: flex;
   margin: 0 auto;
-  max-width: 1440px;
+  max-width: 1920px;
   gap: 24px;
   @media (max-width: 800px) {
     flex-direction: column-reverse;
   }
 }
 .images-content {
-  width: 824px;
+  flex: 3;
   $imageGridSpace: 8px;
   @media (max-width: 800px) {
     width: 100%;
@@ -394,7 +394,8 @@ $transitionStyle: all .3s ease;
   }
 }
 .text-content {
-  width: 400px;
+  flex: 1;
+  min-width: 270px;
   gap: 32px;
   @media (max-width: 800px) {
     width: 100%;
