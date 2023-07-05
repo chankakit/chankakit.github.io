@@ -122,9 +122,9 @@ onMounted(() => {
   <div>
     <div class="hero">
       <Transition name="hero-zoom-in">
-        <picture>
+        <picture style="display: block;" v-if="work">
           <source :srcset="coverDir + work?.id + '.webp'" type="image/webp">
-          <img class="hero-img" :src="coverDir + work?.id + '.png'" :alt="work?.id" v-if="work">
+          <img class="hero-img" :src="coverDir + work?.id + '.png'" :alt="work?.id" >
         </picture>
       </Transition>
       <div class="work-title-wrap desktop global-padding">
