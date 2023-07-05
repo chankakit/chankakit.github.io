@@ -104,7 +104,7 @@ onMounted(() => {
   window.addEventListener('scroll', () => {
     const scrollY = window.scrollY
     let nowScroll = scrollY / document.documentElement.scrollHeight
-    if(nowScroll > 0 && nowScroll < 0.1) {
+    if(nowScroll > -0.02 && nowScroll < 0.1) {
       hero.style.transform = `translateY( ${scrollY * (1-scrollSpeed)}px )`
     }
   })
