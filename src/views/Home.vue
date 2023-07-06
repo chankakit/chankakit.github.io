@@ -91,8 +91,8 @@ const windowSize = ref({
         </div>
         <div class="flex flex-col items-center main-title">
           <div class="flex flex-col items-center font-semibold main-title-en animate__animated" style="line-height: 24px;">
-            <span style="font-size: 32px;letter-spacing: 10px;">KAKIT'S</span>
-            <span class="mt-6" style="font-size: 64px;letter-spacing: 6px;">
+            <span style="font-size: 32px;letter-spacing: 2px;">KAKIT'S</span>
+            <span class="mt-6" style="font-size: 64px;letter-spacing: 2px;">
               PORTFOLIO
             </span>
           </div>
