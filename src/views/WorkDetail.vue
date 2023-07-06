@@ -90,6 +90,7 @@ const setCoverHeight = (coverDom:HTMLElement) => {
   }
 }
 
+
 /** 封面的滚动速度，
  * 1 - 跟原始滚动速度一样，
  * 0 - 不滚动，
@@ -97,17 +98,27 @@ const setCoverHeight = (coverDom:HTMLElement) => {
 const scrollSpeed = .4
 /** 右侧文本区域的高度，根据视窗高度动态决定 */
 const textContentHeight = ref()
+
+
 onMounted(() => {
   const hero = document.querySelector('.hero') as HTMLElement
   setCoverHeight(hero)
 
-  window.addEventListener('scroll', () => {
-    const scrollY = window.scrollY
-    let nowScroll = scrollY / document.documentElement.scrollHeight
-    if(nowScroll > -0.02 && nowScroll < 0.1) {
-      hero.style.transform = `translateY( ${scrollY * (1-scrollSpeed)}px )`
+  let ticking =false
+  const handelScroll = () => {
+    if(!ticking) {
+      window.requestAnimationFrame(() => {
+        let nowScroll = window.scrollY / document.documentElement.scrollHeight
+        if(nowScroll > -0.02 && nowScroll < 0.1) {
+          hero.style.transform = `translateY(${window.scrollY * (1-scrollSpeed)}px)`
+        }
+        ticking = false
+      })
+      ticking = true
     }
-  })
+  }
+  
+  window.addEventListener('scroll', handelScroll)
 
   textContentHeight.value = window.innerHeight - 96
   window.onresize = () => {

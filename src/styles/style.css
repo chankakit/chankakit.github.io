@@ -67,6 +67,7 @@ body {
 
 .section-title {
   font-weight: 600;
+  will-change: transform, opacity;
 
   .section-title-cn {
     font-size: 56px;

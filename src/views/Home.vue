@@ -1,11 +1,11 @@
 <script setup lang="ts">
 import { ref, onMounted } from 'vue'
-import DragTitle from '../components/DragTitle.vue'
-import SectionTitle from '../components/SectionTitle.vue'
-import WorkItem from '../components/WorkItem.vue'
-import MiscItem from '../components/MiscItem.vue'
+import DragTitle from '@/components/DragTitle.vue'
+import SectionTitle from '@/components/SectionTitle.vue'
+import WorkItem from '@/components/WorkItem.vue'
+import MiscItem from '@/components/MiscItem.vue'
 import AboutInfo from '@/components/About-Info.vue'
-import GlobalFooter from '../components/GlobalFooter.vue'
+import GlobalFooter from '@/components/GlobalFooter.vue'
 import isMobile from '@/common/is-mobile'
 import { worksList, miscList, trOn } from '@/common/store'
 import mainImage from '../assets/main-image@2x.png'
@@ -18,7 +18,6 @@ onMounted(() => {
 
   // wl：worklist
   wlWarpper.value = document.getElementById('wl-wrap')
-  wlContent.value = document.getElementById('wl')
   
   // 打开 overlay 过渡效果开关
   trOn.value = true
@@ -26,7 +25,6 @@ onMounted(() => {
 
 // 用于项目列表下方的 < > 滚动按钮
 const wlWarpper = ref()
-const wlContent = ref()
 /**
  * 项目列表滚动函数
  * @param isRight 是否向右滚动
@@ -44,6 +42,7 @@ const workListScroll = (isRight:boolean) => {
 }
 
 // 杂misc 的行跟随页面滚动而横向移动的效果
+let ticking = false;
 /** miscRowOffset 是每行偏移数值的基准值，
  * 每行的偏移数值会乘以一个系数，
  * 来达到每行移动的速度不一样 */
@@ -52,11 +51,17 @@ const miscRowOffset = ref(0)
  *  无入参，读取当前页面滚动位置（百分比），在符合范围的时候执行计算偏移值
  */
 const miscRowScroll = () => {
-  let nowScroll = window.scrollY / document.documentElement.scrollHeight
-  // 只在misc准备露出时才执行计算
-  if(nowScroll > 0.33 && nowScroll < 0.70) {
-    // 输入上下限其实可以跟上面的限制范围一样，上面限制范围大一点，可以在准备进入画面时就已经移动
-    miscRowOffset.value = linearMapping(nowScroll, 0.345, 0.6590, 0, -35)
+  if(!ticking) {
+    window.requestAnimationFrame(() => {
+      let nowScroll = window.scrollY / document.documentElement.scrollHeight
+      // 只在misc准备露出时才执行计算
+      if(nowScroll > 0.33 && nowScroll < 0.70) {
+        // 输入上下限其实可以跟上面的限制范围一样，上面限制范围大一点，可以在准备进入画面时就已经移动
+        miscRowOffset.value = linearMapping(nowScroll, 0.345, 0.6590, 0, -35)
+      }
+      ticking = false
+    })
+    ticking = true
   }
 }
 /**
@@ -73,7 +78,7 @@ const linearMapping = (x:number, x1:number, x2:number, y1:number, y2:number):num
   const intercept = y1 - slope * x1;
 
   return slope * x + intercept;
-};
+}
 
 const windowSize = ref({
   width: window.innerWidth,
@@ -147,24 +152,24 @@ const windowSize = ref({
       <section-title cn="杂" en="misc" />
       <!-- 大于 600px 宽度显示两行 -->
       <div v-if="windowSize.width > 600" class="misc-grid">
-        <div class="misc-row flex gap-2" :style="{marginBottom: '0.5rem', transform: 'translate(' + miscRowOffset + 'vw, 0)'}">
+        <div class="misc-row flex gap-2" :style="{marginBottom: '0.5rem', transform: `translate(${miscRowOffset}vw, 0)`}">
           <misc-item v-for="item in miscList?.slice(0, 5)" :item="item" />
           <misc-item v-for="item in miscList?.slice(0, 5)" :item="item" />
         </div>
-        <div class="misc-row flex gap-2" :style="{float: 'right', transform: 'translate(' + -miscRowOffset + 'vw, 0)'}">
+        <div class="misc-row flex gap-2" :style="{float: 'right', transform: `translate(${-miscRowOffset}vw, 0)`}">
           <misc-item v-for="item in miscList?.slice(5, 10)" :item="item" />
           <misc-item v-for="item in miscList?.slice(5, 10)" :item="item" />
         </div>
       </div>
       <!-- 小于 600px 宽度显示三行 -->
       <div v-else class="misc-grid">
-        <div class="misc-row flex gap-1" :style="{transform: 'translate(' + miscRowOffset*1.33 + 'vw, 0)'}">
+        <div class="misc-row flex gap-1" :style="{transform: `translate(${miscRowOffset*1.33}vw, 0)`}">
           <misc-item v-for="item in miscList?.slice(0, 3)" :item="item" />
         </div>
-        <div class="misc-row flex gap-1" :style="{float: 'right', transform: 'translate(' + -miscRowOffset*1.3 + 'vw, 0)'}">
+        <div class="misc-row flex gap-1" :style="{float: 'right', transform: `translate(${miscRowOffset*-1.3}vw, 0)`}">
           <misc-item v-for="item in miscList?.slice(3, 6)" :item="item" />
         </div>
-        <div class="misc-row flex gap-1" :style="{transform: 'translate(' + miscRowOffset*1.6 + 'vw, 0)'}">
+        <div class="misc-row flex gap-1" :style="{transform: `translate(${miscRowOffset*1.6}vw, 0)`}">
           <misc-item v-for="item in miscList?.slice(6, 10)" :item="item" />
         </div>
       </div>
@@ -194,6 +199,7 @@ section {
     text-align: center;
     filter: blur(4px);
     opacity: .1;
+    will-change: transform;
     animation-delay: .6s;
     animation-name: title_fade_in_up;
     animation-duration: 1.4s;
@@ -370,6 +376,7 @@ section:not(:last-child) {
 }
 .misc-row {
   width: fit-content;
+  will-change: transform;
   @media (max-width: 600px) {
     margin-bottom: 0.25rem;
   }
