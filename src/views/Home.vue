@@ -91,15 +91,16 @@ const windowSize = ref({
         </div>
         <div class="flex flex-col items-center main-title">
           <div class="flex flex-col items-center font-semibold main-title-en animate__animated" style="line-height: 24px;">
-            <span style="font-size: 32px;letter-spacing: 10px;">WATER LEAK</span>
+            <span style="font-size: 32px;letter-spacing: 10px;">KAKIT'S</span>
             <span class="mt-6" style="font-size: 64px;letter-spacing: 12px;">
-              REPAIR
+              PORTFOLIO
             </span>
           </div>
-          <h2 class="serif font-bold main-title-cn animate__animated">业余修补楼房漏水</h2>
+          <!-- <h2 class="serif font-bold main-title-cn animate__animated">业余修补楼房漏水</h2> -->
+          <h2 class="serif font-bold main-title-cn animate__animated">作品集</h2>
         </div>
       </div>
-      <DragTitle msg="正职是切图"></DragTitle>
+      <DragTitle msg="UI, Branding, Graphic"></DragTitle>
       <div class="flex flex-col items-center sd-tips animate__animated">
         <div class="flex justify-center mouse-ic">
           <div class="mouse-ani"></div>

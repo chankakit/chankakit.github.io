@@ -107,7 +107,7 @@ $drag-point-size: 6px;
   padding: 12px;
   position: relative;
   margin-top: 32px;
-  width: 180px;
+  width: 280px;
   border: 1px solid rgba($color: #fff, $alpha: 0.6);
   cursor: move;
   animation-delay: 1.2s;
@@ -145,8 +145,8 @@ $drag-point-size: 6px;
 }
 .drag-title {
   font-size: 20px;
-  letter-spacing: 12px;
-  margin-right: -12px;
+  letter-spacing: 2px;
+  margin-right: -6px;
   text-align: center;
   user-select: none;
   white-space: nowrap;
