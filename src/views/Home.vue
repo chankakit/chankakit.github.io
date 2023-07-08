@@ -12,6 +12,10 @@ import mainImage from '../assets/main-image@2x.png'
 
 onMounted(() => {
   window.addEventListener('scroll', miscRowScroll)
+  window.addEventListener('resize', () => {
+    windowSize.value.width = window.innerWidth
+    windowSize.value.height = window.innerHeight
+  })
 
   windowSize.value.width = window.innerWidth
   windowSize.value.height = window.innerHeight
