@@ -58,7 +58,7 @@ onMounted(() => {
                 <div class="high-light"></div>
                 <picture>
                   <source :srcset="coverDir + work?.id + '.webp'" type="image/webp">
-                  <img class="hero-img" :src="coverDir + work?.id + '.png'" :alt="work?.id">
+                  <img class="work-img" :src="coverDir + work?.id + '.png'" :alt="work?.id">
                 </picture>
               </div>
               <div class="work-text">
@@ -119,6 +119,10 @@ onMounted(() => {
       opacity: 1;
       transform: translate(0, 0);
     }
+    .work-img {
+      transform: scale3d(1.05, 1.05, 1);
+      transform-style: preserve-3d;
+    }
   }
 }
 .work-item.inview {
@@ -138,6 +142,9 @@ onMounted(() => {
   position: relative;
   flex: 2;
   overflow: hidden;
+}
+.work-img {
+  transition: all .7s cubic-bezier(.3, 0, .2, 1);
 }
 .work-text {
   flex: 1;
