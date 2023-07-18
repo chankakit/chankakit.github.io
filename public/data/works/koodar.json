@@ -1,0 +1,149 @@
+{
+  "id": "koodar",
+  "cn_name": "koodar 车载 HUD",
+  "en_name": "koodar HUD",
+  "year": {
+    "start": 2015,
+    "end": 2016
+  },
+  "platform": ["On-Car Device", "Web", "Mobile"],
+  "category": [
+    "UI",
+    "Branding"
+  ],
+  "credits": [
+    {
+      "title": "UX",
+      "people": [
+        { "name": "kakit" }
+      ]
+    },
+    {
+      "title": "Web Design",
+      "people": [
+        { "name": "kakit" }
+      ]
+    },
+    {
+      "title": "Branding",
+      "people": [
+        { "name": "kakit" }
+      ]
+    }
+  ],
+  "description": [
+    {
+      "chapter_title": "项目介绍",
+      "content": [
+        "koodar 平视系统是一款以行车安全为最终诉求的智能车载配件。其内里的基础是高稳定性车规级硬件以及专门为车载设备特别设计的系统。koodar 有安全出发并辅以年轻、科技的气息来传达出产品要给用户。"
+      ]
+    }
+  ],
+  "images": [
+    {
+      "type": "video",
+      "url": [
+        "koodar-01"
+      ]
+    },
+    {
+      "type": "image",
+      "url": [
+        "koodar-02"
+      ]
+    },
+    {
+      "type": "image",
+      "url": [
+        "koodar-03"
+      ]
+    },
+    {
+      "type": "video",
+      "url": [
+        "koodar-04"
+      ]
+    },
+    {
+      "type": "image",
+      "url": [
+        "koodar-05"
+      ]
+    },
+    {
+      "type": "image",
+      "url": [
+        "koodar-06"
+      ]
+    },
+    {
+      "type": "image",
+      "url": [
+        "koodar-07"
+      ]
+    },
+    {
+      "type": "image",
+      "url": [
+        "koodar-08"
+      ]
+    },
+    {
+      "type": "image",
+      "url": [
+        "koodar-09"
+      ]
+    },
+    {
+      "type": "image",
+      "url": [
+        "koodar-10"
+      ]
+    },
+    {
+      "type": "image",
+      "url": [
+        "koodar-11"
+      ]
+    },
+    {
+      "type": "image",
+      "url": [
+        "koodar-12"
+      ]
+    },
+    {
+      "type": "image",
+      "url": [
+        "koodar-13"
+      ]
+    },
+    {
+      "type": "image",
+      "url": [
+        "koodar-14"
+      ]
+    },
+    {
+      "type": "image",
+      "url": [
+        "koodar-15",
+        "koodar-16"
+      ]
+    },
+    {
+      "type": "image",
+      "url": [
+        "koodar-17",
+        "koodar-18"
+      ]
+    },
+    {
+      "type": "image",
+      "url": [
+        "koodar-19",
+        "koodar-20"
+      ]
+    }
+  ]
+}
