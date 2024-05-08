@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import { SpeedInsights } from "@vercel/speed-insights/vue"
+import { inject } from '@vercel/analytics'
 import WipeOverlay from '@/components/WipeOverlay.vue'
 import GlobalHeader from '@/components/GlobalHeader.vue'
 import { worksList, miscList } from '@/common/store'
@@ -13,9 +15,11 @@ fetch('/data/misc.json')
   .then((response) => response.json())
   .then((json) => miscList.value = json)
 
+inject()
 </script>
 
 <template>
+  <SpeedInsights />
   <global-header />
   <wipe-overlay />
   <router-view v-slot="{Component}">

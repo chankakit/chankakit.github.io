@@ -1,9 +1,10 @@
 <script setup lang="ts">
 interface MiscItem {
-  type: string;
-  cover: string;
-  title: string;
-  subtitle: string;
+  type: string,
+  cover_webp: string,
+  cover_jpg: string,
+  video: string,
+  v_cover: string
 }
 defineProps<{ 
   item: MiscItem 
@@ -13,11 +14,11 @@ defineProps<{
 
 <template>
   <div class="misc-item">
-    <picture>
-      <source :srcset="item.cover + '.webp'" type="image/webp">
-      <img v-if="item.type == 'image'" :src="item.cover + '.jpg'" alt="misc_cover" />
+    <picture v-if="item.type == 'image'">
+      <source :srcset="item.cover_webp" type="image/webp">
+      <img :src="item.cover_jpg" alt="misc_cover" />
     </picture>
-    <video v-if="item.type == 'video'" :src="item.cover + '.mp4'" :poster="item.cover + '.gif'"
+    <video v-if="item.type == 'video'" :src="item.video" :poster="item.v_cover"
       autoplay loop muted playsinline x5-playsinline preload="auto" />
   </div>
 </template>

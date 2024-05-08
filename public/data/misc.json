@@ -1,62 +1,52 @@
 [
   {
     "type": "image",
-    "cover": "/images/misc-covers/misc-1-1",
-    "title": "Design Show 2020",
-    "subtitle": "Print"
+    "cover_webp": "https://cdn.sanity.io/files/ilbimbym/production/99b6d03e06848667617561bc259c2d90d8999c0c.webp",
+    "cover_jpg": "https://cdn.sanity.io/files/ilbimbym/production/1c572fa9e19524d7cf455a986a91bdaaf43fcf44.jpg"
   },
   {
     "type": "video",
-    "cover": "/images/misc-covers/misc-1-2",
-    "title": "Design Show 2020",
-    "subtitle": "Print"
+    "v_cover": "https://cdn.sanity.io/files/ilbimbym/production/3516263838a8840e228548a1e365d2ca7ba666cf.gif",
+    "video": "https://cdn.sanity.io/files/ilbimbym/production/fd2fe658632dcc56f7d789eeb17955f76768fcdc.mp4"
   },
   {
     "type": "image",
-    "cover": "/images/misc-covers/misc-1-3",
-    "title": "Design Show 2020",
-    "subtitle": "Print"
+    "cover_webp": "https://cdn.sanity.io/files/ilbimbym/production/05243c91725da525a834a7befd02ed469e487ac2.webp",
+    "cover_jpg": "https://cdn.sanity.io/files/ilbimbym/production/dde4eb3173b34c5d585f5136664538d78f1fbc5f.jpg"
   },
   {
     "type": "image",
-    "cover": "/images/misc-covers/misc-1-4",
-    "title": "Design Show 2020",
-    "subtitle": "Print"
+    "cover_webp": "https://cdn.sanity.io/files/ilbimbym/production/60c510b1ec11f65ac854b3da499f6384f170e481.webp",
+    "cover_jpg": "https://cdn.sanity.io/files/ilbimbym/production/054f72703a3beb749838889e6bd26db614de8dc2.jpg"
   },
   {
     "type": "image",
-    "cover": "/images/misc-covers/misc-1-5",
-    "title": "Design Show 2020",
-    "subtitle": "Print"
+    "cover_webp": "https://cdn.sanity.io/files/ilbimbym/production/35aec870f54839b30d405bb2240a2efa83e66bb5.webp",
+    "cover_jpg": "https://cdn.sanity.io/files/ilbimbym/production/b76dc2966b462e35a2767ebfcfa79a67e8d70594.jpg"
   },
   {
     "type": "image",
-    "cover": "/images/misc-covers/misc-2-1",
-    "title": "Design Show 2020",
-    "subtitle": "Print"
+    "cover_webp": "https://cdn.sanity.io/files/ilbimbym/production/af6b1da15acc65d7d4b24282dd6a1cae81f96309.webp",
+    "cover_jpg": "https://cdn.sanity.io/files/ilbimbym/production/0df8838e73b22e37746143ea49626180236d6420.jpg"
   },
   {
     "type": "image",
-    "cover": "/images/misc-covers/misc-2-2",
-    "title": "Design Show 2020",
-    "subtitle": "Print"
+    "cover_webp": "https://cdn.sanity.io/files/ilbimbym/production/437f83a6eb74c06d661fd33e9a9ffe5cf5beb430.webp",
+    "cover_jpg": "https://cdn.sanity.io/files/ilbimbym/production/96b068dd341bf447f0066fec9d8b4c315030c50f.jpg"
   },
   {
     "type": "image",
-    "cover": "/images/misc-covers/misc-2-3",
-    "title": "Design Show 2020",
-    "subtitle": "Print"
+    "cover_webp": "https://cdn.sanity.io/files/ilbimbym/production/52a9f962cc425931f101c99631344de1502da1e9.webp",
+    "cover_jpg": "https://cdn.sanity.io/files/ilbimbym/production/86d02a0ee412e1d347ae07cfee1d204efd14bd7f.jpg"
   },
   {
     "type": "video",
-    "cover": "/images/misc-covers/misc-2-4",
-    "title": "Design Show 2020",
-    "subtitle": "Print"
+    "v_cover": "https://cdn.sanity.io/files/ilbimbym/production/059e79cb0e3a42d065fc0a4d5f0f100d0113846c.gif",
+    "video": "https://cdn.sanity.io/files/ilbimbym/production/b2f62f7abc92b34ef15ff8ddaf57efc728d35557.mp4"
   },
   {
     "type": "image",
-    "cover": "/images/misc-covers/misc-2-5",
-    "title": "Design Show 2020",
-    "subtitle": "Print"
+    "cover_webp": "https://cdn.sanity.io/files/ilbimbym/production/05024cec66cf06706a479403acda3fb6423cb1f8.webp",
+    "cover_jpg": "https://cdn.sanity.io/files/ilbimbym/production/bfb2b630bcf05bb62641e485ef8af439dcdd34f7.jpgg"
   }
 ]
