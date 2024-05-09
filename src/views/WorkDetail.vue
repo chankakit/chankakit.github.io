@@ -90,7 +90,6 @@ const setCoverHeight = (coverDom:HTMLElement) => {
   }
 }
 
-
 /** 封面的滚动速度，
  * 1 - 跟原始滚动速度一样，
  * 0 - 不滚动，
@@ -185,8 +184,7 @@ onMounted(() => {
             <!-- 视频 -->
             <div v-else>
               <video v-for="v in row.url" style="width: 100%;"
-                :src="detailImagesDir + v + '.mp4'" 
-                :poster="detailImagesDir + v + '.png'"
+                :src="v"
                 autoplay loop muted playsinline x5-playsinline></video>
             </div>
           </li>
