@@ -37,7 +37,7 @@ import Contact from '../components/Contact.vue'
       </ul>
     </div>
     <slot></slot>
-    <contact :wx-b64="personalInfo.wechat" :mail-b64="personalInfo.mail"></contact>
+    <!--<contact :wx-b64="personalInfo.wechat" :mail-b64="personalInfo.mail"></contact>-->
   </div>
 </template>
 
