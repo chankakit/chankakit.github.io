@@ -212,7 +212,7 @@ section {
   .main-title-cn {
     line-height: 36px;
     font-size: 36px;
-    letter-spacing: 10px;
+    // letter-spacing: 10px;
     margin-right: -10px;
     text-align: center;
     animation-delay: .7s;
