@@ -105,10 +105,10 @@ const windowSize = ref({
               PORTFOLIO
             </span>
           </div>
-          <h2 class="serif font-bold main-title-cn animate__animated">业余修补楼房漏水送快递送外卖</h2>
+          <h2 class="serif font-bold main-title-cn animate__animated">Hi, I'm kit.<br/>I design things on screen</h2>
         </div>
       </div>
-      <DragTitle msg="正职切下图咁"></DragTitle>
+      <DragTitle msg="and make them come to life"></DragTitle>
       <div class="flex flex-col items-center sd-tips animate__animated">
         <div class="flex justify-center mouse-ic">
           <div class="mouse-ani"></div>
