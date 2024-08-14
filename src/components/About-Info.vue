@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import personalInfo from '@/common/personal-info'
-import Contact from '../components/Contact.vue'
+//import Contact from '../components/Contact.vue'
 </script>
 
 <template>
