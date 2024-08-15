@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import personalInfo from '@/common/personal-info'
-//import Contact from '../components/Contact.vue'
+import Contact from '../components/Contact.vue'
 </script>
 
 <template>
@@ -37,7 +37,7 @@ import personalInfo from '@/common/personal-info'
       </ul>
     </div>
     <slot></slot>
-    <!--<contact :wx-b64="personalInfo.wechat" :mail-b64="personalInfo.mail"></contact>-->
+    <contact :wx-b64="personalInfo.wechat" :mail-b64="personalInfo.mail"></contact>
   </div>
 </template>
 
