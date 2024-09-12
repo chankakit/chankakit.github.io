@@ -107,7 +107,7 @@ $drag-point-size: 6px;
   padding: 12px;
   position: relative;
   margin-top: 32px;
-  width: 314px;
+  width: 370px;
   border: 1px solid rgba($color: #fff, $alpha: 0.6);
   cursor: move;
   animation-delay: 1.2s;
