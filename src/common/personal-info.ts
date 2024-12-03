@@ -25,6 +25,12 @@ const personalInfo:personalInfo = {
   ],
   workExp: [
     {
+      startTime: "2024.06",
+      endTime: "       ",
+      company: "佛山荣星印刷",
+      title: "印前文件制作"
+    },
+    {
       startTime: "2018.02",
       endTime: "2022.09",
       company: "腾讯 - CSIG 安全线",
