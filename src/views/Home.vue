@@ -94,21 +94,7 @@ const windowSize = ref({
   <div>
     <!-- 首屏 -->
     <section class="flex flex-col justify-center items-center" style="user-select: none;">
-      <div class="title-content-wrap flex flex-col items-center justify-center">
-        <div class="img-wrap">
-          <img :src=mainImage width="140">
-        </div>
-        <div class="flex flex-col items-center main-title">
-          <div class="flex flex-col items-center font-semibold main-title-en animate__animated" style="line-height: 24px;">
-            <span style="font-size: 32px;letter-spacing: 2px;">KAKIT'S</span>
-            <span class="mt-6" style="font-size: 64px;letter-spacing: 2px;">
-              PORTFOLIO
-            </span>
-          </div>
-          <h2 class="serif font-bold main-title-cn animate__animated">Hi, I'm kit.<br/>I design things on screen</h2>
-        </div>
-      </div>
-      <DragTitle msg="and make them come to life"></DragTitle>
+      <div>kit's profolio</div>
       <div class="flex flex-col items-center sd-tips animate__animated">
         <div class="flex justify-center mouse-ic">
           <div class="mouse-ani"></div>

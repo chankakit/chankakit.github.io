@@ -30,8 +30,8 @@ import Contact from '../components/Contact.vue'
             <span class="desc-text span-box" v-for="c in workExp.endTime">{{ c }}</span>
           </div>
           <div>
-            <div class="main-text">{{ workExp.company }}</div>
-            <div class="main-text" style="opacity: .6;;">{{ workExp.title }}</div>
+            <div class="main-text" style="margin-bottom: 6px;">{{ workExp.company }}</div>
+            <div class="main-text" style="opacity: .6; font-size: 14px;">{{ workExp.title }}</div>
           </div>
         </li>
       </ul>
@@ -127,6 +127,6 @@ import Contact from '../components/Contact.vue'
 }
 
 .info-detail-item:not(:first-child) {
-  margin-top: 8px;
+  margin-top: 16px;
 }
 </style>
