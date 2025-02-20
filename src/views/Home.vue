@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { ref, onMounted } from 'vue'
-import DragTitle from '@/components/DragTitle.vue'
+// import DragTitle from '@/components/DragTitle.vue'
 import SectionTitle from '@/components/SectionTitle.vue'
 import WorkItem from '@/components/WorkItem.vue'
 import MiscItem from '@/components/MiscItem.vue'
@@ -8,7 +8,7 @@ import AboutInfo from '@/components/About-Info.vue'
 import GlobalFooter from '@/components/GlobalFooter.vue'
 import isMobile from '@/common/is-mobile'
 import { worksList, miscList, trOn } from '@/common/store'
-import mainImage from '../assets/main-image@2x.png'
+// import mainImage from '../assets/main-image@2x.png'
 
 onMounted(() => {
   window.addEventListener('scroll', miscRowScroll)
