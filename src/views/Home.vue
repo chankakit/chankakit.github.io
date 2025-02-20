@@ -94,7 +94,7 @@ const windowSize = ref({
   <div>
     <!-- 首屏 -->
     <section class="flex flex-col justify-center items-center" style="user-select: none;">
-      <div>kit's profolio</div>
+      <div class="main-title  animate__animated">kit's profolio</div>
       <div class="flex flex-col items-center sd-tips animate__animated">
         <div class="flex justify-center mouse-ic">
           <div class="mouse-ani"></div>
@@ -180,28 +180,8 @@ section {
   min-height: 540px;
 
   .main-title {
-    margin-top: -24px;
-  }
-
-  .main-title-en {
-    margin-right: -12px;
-    text-align: center;
-    filter: blur(4px);
-    opacity: .1;
     will-change: transform;
     animation-delay: .6s;
-    animation-name: title_fade_in_up;
-    animation-duration: 1.4s;
-    animation-timing-function: cubic-bezier(0.5, 0, 0.4, 1);
-  }
-
-  .main-title-cn {
-    line-height: 36px;
-    font-size: 36px;
-    // letter-spacing: 10px;
-    margin-right: -10px;
-    text-align: center;
-    animation-delay: .7s;
     animation-name: title_fade_in_up;
     animation-duration: 1.4s;
     animation-timing-function: cubic-bezier(0.5, 0, 0.4, 1);
@@ -211,8 +191,8 @@ section {
   @keyframes title_fade_in_up {
     from {
       opacity: 0;
-      -webkit-transform: translate3d(0, 80%, 0);
-      transform: translate3d(0, 100%, 0);
+      -webkit-transform: translate3d(0, 5px, 0);
+      transform: translate3d(0, 5px, 0);
     }
 
     to {
@@ -224,11 +204,8 @@ section {
     margin-top: -13vh;
   }
   @media (max-width: 600px) {
-    .title-content-wrap {
-      margin-top: -20vh;
-    }
     .main-title {
-      transform: scale(.75);
+      margin-top: -16vh;
     }
   }
 }
@@ -242,7 +219,7 @@ section:not(:last-child) {
   bottom: 48px;
   font-size: 14px;
   opacity: .3;
-  animation-delay: 2.1s;
+  animation-delay: 0.5s;
   animation-name: fade_in;
   animation-duration: 1s;
   animation-timing-function: cubic-bezier(0.6, 0, 0.4, 1);
