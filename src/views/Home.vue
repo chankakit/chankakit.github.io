@@ -185,6 +185,7 @@ section {
     animation-name: title_fade_in_up;
     animation-duration: 1.4s;
     animation-timing-function: cubic-bezier(0.5, 0, 0.4, 1);
+    margin-top: -64px;
   }
 
   // 标题淡入动画

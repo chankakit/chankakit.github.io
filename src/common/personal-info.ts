@@ -34,7 +34,7 @@ const personalInfo:personalInfo = {
       startTime: "2018.02",
       endTime: "2022.09",
       company: "腾讯 - CSIG 安全线",
-      title: "视觉设计 (D9)"
+      title: "视觉设计"
     },
     {
       startTime: "2013.01",
